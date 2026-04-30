@@ -58,14 +58,14 @@
       const BG_START = 6.44;        // bg video plays once from 6.44s and freezes
       const FALLBACK_MS  = 4000;
 
-      // Match Sereniel exactly: bg video plays ONCE from 6.44s to end, then
-      // stops on the last frame (post-explosion fade). The bgBreathe CSS
-      // animation pulses opacity + scale on that frozen frame.
+      // Match Sereniel exactly: the bg video NEVER plays. We just seek to
+      // 6.44s and let the video element render that paused frame; the
+      // bgBreathe CSS animation does all the visible "breathing".
       function startBackgroundLoop() {
         const seekOnce = () => {
-          try { bg.currentTime = BG_START; } catch {}
           bg.muted = true;
-          bg.play().catch(() => {});
+          try { bg.pause(); } catch {}
+          try { bg.currentTime = BG_START; } catch {}
         };
         bg.src = './videos/intro.mp4';
         if (bg.readyState >= 1) seekOnce();
