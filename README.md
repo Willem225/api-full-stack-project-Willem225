@@ -1,13 +1,11 @@
 # CZN Deck Builder
 
-A deck builder for **Chaos Zero Nightmare** with a live **Faint Memory** calculator that mirrors the in-game rules, local "accounts" for saving decks, **and a JSON REST API** for programmatic access.
+A deck builder for **Chaos Zero Nightmare** 
 
 - **Live site:** https://bt-wd.github.io/api-full-stack-project-Willem225/
 - **API base:** https://&lt;your-cloudflare-pages-deployment&gt;.pages.dev/api/ (see *Deploying the API* below)
 
 ## Faint Memory rules
-
-Encoded in `js/faintMemory.js` (shared with `POST /api/calculate`).
 
 | Element                                     | Cost                                              |
 |---------------------------------------------|---------------------------------------------------|
