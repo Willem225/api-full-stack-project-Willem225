@@ -11,10 +11,11 @@
   <div class="cosmos" aria-hidden="true"></div>
   <div class="stars"  aria-hidden="true"></div>
 
-  <!-- Background video — same file as the intro. Native HTML5 loop;
-       seeks once to 6.44s on first play (matches the Sereniel website). -->
+  <!-- Background video — same file as the intro. Plays ONCE from 6.44s, then
+       stops on the last frame. The bgBreathe CSS animation handles the
+       visible pulsing effect (matches the Sereniel website exactly). -->
   <div id="bg-video-wrap" aria-hidden="true">
-    <video id="bg-video" muted loop playsinline preload="auto"></video>
+    <video id="bg-video" muted playsinline preload="auto"></video>
   </div>
 
   <!-- Intro overlay — autoplay muted, fades out after the explosion. Hidden
@@ -54,21 +55,21 @@
       const root    = document.documentElement;
 
       const EXPLOSION_AT = 7.13;
-      const BG_INITIAL_SEEK = 6.44; // matches the Sereniel website's bg start point
+      const BG_START = 6.44;        // bg video plays once from 6.44s and freezes
       const FALLBACK_MS  = 4000;
 
-      // Background video uses native HTML5 looping. We just seek once on first
-      // play so the explosion is the first thing the viewer sees; after that,
-      // the <video loop> attribute repeats the whole clip each cycle.
+      // Match Sereniel exactly: bg video plays ONCE from 6.44s to end, then
+      // stops on the last frame (post-explosion fade). The bgBreathe CSS
+      // animation pulses opacity + scale on that frozen frame.
       function startBackgroundLoop() {
         const seekOnce = () => {
-          try { bg.currentTime = BG_INITIAL_SEEK; } catch {}
+          try { bg.currentTime = BG_START; } catch {}
           bg.muted = true;
           bg.play().catch(() => {});
         };
         bg.src = './videos/intro.mp4';
         if (bg.readyState >= 1) seekOnce();
-        else bg.addEventListener('loadedmetadata', seekOnce, { once: true });
+        else bg.addEventListener('loadeddata', seekOnce, { once: true });
       }
 
       let finished = false;

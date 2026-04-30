@@ -104,22 +104,38 @@ html { background: var(--bg-0); }   /* solid base so nothing shows through the p
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity 1.6s ease-out;
+  display: none;                 /* shown only after the intro finishes */
   overflow: hidden;
-  mix-blend-mode: screen;        /* bright explosion adds onto the dark bg */
 }
-#bg-video-wrap.show { opacity: 0.85; }
+#bg-video-wrap.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #bg-video {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   object-fit: cover;
-  filter: saturate(1.6) contrast(1.15) brightness(1.05);
-  animation: bg-breathe 22s ease-in-out infinite alternate;
+  filter: saturate(1.4) brightness(0.7);
+  /* Sereniel's bgBreathe: 5s pulse on opacity + scale; the bg video is paused
+     on its last frame, so this is what the viewer perceives as a looping
+     post-explosion glow breathing in and out. */
+  animation: bg-breathe 5s ease-in-out infinite;
 }
 @keyframes bg-breathe {
-  0%   { transform: scale(1.0); }
-  100% { transform: scale(1.08); }
+  0%, 100% { opacity: 0.10; transform: scale(1); }
+  50%      { opacity: 0.38; transform: scale(1.025); }
+}
+/* Soft vignette on top of the bg video so it fades into the page edges. */
+#bg-video-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 20%,
+              rgba(10, 11, 20, 0.5) 70%, var(--bg-0) 100%);
+  pointer-events: none;
 }
 
 /* ─── intro overlay ─────────────────────────────── */
