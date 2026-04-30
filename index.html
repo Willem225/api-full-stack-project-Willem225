@@ -11,9 +11,10 @@
   <div class="cosmos" aria-hidden="true"></div>
   <div class="stars"  aria-hidden="true"></div>
 
-  <!-- Background video — same file as the intro, low opacity, looping -->
+  <!-- Background video — same file as the intro. Plays the explosion portion
+       only (no `loop` attribute; we manually seek back on `ended`). -->
   <div id="bg-video-wrap" aria-hidden="true">
-    <video id="bg-video" muted loop playsinline preload="none"></video>
+    <video id="bg-video" muted playsinline preload="auto"></video>
   </div>
 
   <!-- Intro overlay — autoplay muted, fades out after the explosion. Hidden
@@ -22,10 +23,6 @@
   <div id="intro-overlay" aria-hidden="true">
     <video id="intro-video" muted playsinline preload="auto" src="./videos/intro.mp4"></video>
     <div id="explosion-flash"></div>
-    <div id="intro-hint">
-      <span class="hint-row"><kbd>click</kbd> for sound</span>
-      <span class="hint-row"><kbd>space</kbd> to skip</span>
-    </div>
   </div>
 
   <div class="app">
@@ -58,8 +55,27 @@
 
       const SHOWN_KEY = 'czn_intro_shown_v1';
       const EXPLOSION_AT = 7.13;
-      const BG_START_AT  = 6.44;
+      const BG_LOOP_FROM = 5.6;     // seek-back point: gives a brief build then flash
       const FALLBACK_MS  = 4000;
+
+      // Configure the background video so it loops only the explosion portion.
+      function startBackgroundLoop() {
+        const seekAndPlay = () => {
+          try { bg.currentTime = BG_LOOP_FROM; } catch {}
+          bg.muted = true;
+          bg.play().catch(() => {});
+        };
+        // Re-seek instead of letting the video end (which would otherwise pause).
+        bg.addEventListener('ended', seekAndPlay);
+        // Also bind a timeupdate guard in case `ended` doesn't fire on some browsers.
+        bg.addEventListener('timeupdate', () => {
+          if (!bg.duration) return;
+          if (bg.currentTime >= bg.duration - 0.06) seekAndPlay();
+        });
+        bg.src = './videos/intro.mp4';
+        if (bg.readyState >= 1) seekAndPlay();
+        else bg.addEventListener('loadedmetadata', seekAndPlay, { once: true });
+      }
 
       let finished = false;
       const handlers = {};   // populated below; finish() detaches them
@@ -74,26 +90,17 @@
         setTimeout(() => { overlay.remove(); }, 600);
         // Activate looping background video
         bgWrap.classList.add('show');
-        try {
-          bg.src = './videos/intro.mp4';
-          bg.currentTime = BG_START_AT;
-          bg.muted = true;
-          bg.play().catch(() => {});
-        } catch {}
+        startBackgroundLoop();
         sessionStorage.setItem(SHOWN_KEY, '1');
       }
 
       // Skip the intro overlay for repeat visits in the same session, but
-      // still load the background video.
+      // still load the looping background video.
       if (sessionStorage.getItem(SHOWN_KEY) === '1') {
         overlay.remove();
         root.classList.add('intro-done');
         bgWrap.classList.add('show');
-        bg.src = './videos/intro.mp4';
-        bg.addEventListener('loadedmetadata', () => {
-          try { bg.currentTime = BG_START_AT; } catch {}
-          bg.play().catch(() => {});
-        });
+        startBackgroundLoop();
         return;
       }
 
