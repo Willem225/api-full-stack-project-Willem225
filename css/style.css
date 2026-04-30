@@ -47,13 +47,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: var(--bg-0);
+  /* The cosmic background layer (.cosmos) provides the page's background.
+     We leave html/body transparent so #bg-video-wrap renders cleanly. */
+  background: transparent;
   color: var(--text);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 15px;
   line-height: 1.55;
   min-height: 100vh;
 }
+html { background: var(--bg-0); }   /* solid base so nothing shows through the page */
 
 /* ─── cosmic background (behind everything) ─────────────────────────────── */
 
@@ -104,13 +107,14 @@ html, body {
   opacity: 0;
   transition: opacity 1.6s ease-out;
   overflow: hidden;
+  mix-blend-mode: screen;        /* bright explosion adds onto the dark bg */
 }
-#bg-video-wrap.show { opacity: 0.42; }
+#bg-video-wrap.show { opacity: 0.85; }
 #bg-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: saturate(1.5) brightness(0.95) blur(0.5px);
+  filter: saturate(1.6) contrast(1.15) brightness(1.05);
   animation: bg-breathe 22s ease-in-out infinite alternate;
 }
 @keyframes bg-breathe {

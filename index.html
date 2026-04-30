@@ -53,7 +53,6 @@
       const bg      = document.getElementById('bg-video');
       const root    = document.documentElement;
 
-      const SHOWN_KEY = 'czn_intro_shown_v1';
       const EXPLOSION_AT = 7.13;
       const BG_LOOP_FROM = 5.6;     // seek-back point: gives a brief build then flash
       const FALLBACK_MS  = 4000;
@@ -91,17 +90,6 @@
         // Activate looping background video
         bgWrap.classList.add('show');
         startBackgroundLoop();
-        sessionStorage.setItem(SHOWN_KEY, '1');
-      }
-
-      // Skip the intro overlay for repeat visits in the same session, but
-      // still load the looping background video.
-      if (sessionStorage.getItem(SHOWN_KEY) === '1') {
-        overlay.remove();
-        root.classList.add('intro-done');
-        bgWrap.classList.add('show');
-        startBackgroundLoop();
-        return;
       }
 
       let exploded = false;
