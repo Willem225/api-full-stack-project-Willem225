@@ -17,10 +17,15 @@
   </div>
 
   <!-- Intro overlay — autoplay muted, fades out after the explosion. Hidden
-       on subsequent navigations within the same browser session. -->
+       on subsequent navigations within the same browser session.
+       Click to unmute, press Space to skip. -->
   <div id="intro-overlay" aria-hidden="true">
     <video id="intro-video" muted playsinline preload="auto" src="./videos/intro.mp4"></video>
     <div id="explosion-flash"></div>
+    <div id="intro-hint">
+      <span class="hint-row"><kbd>click</kbd> for sound</span>
+      <span class="hint-row"><kbd>space</kbd> to skip</span>
+    </div>
   </div>
 
   <div class="app">
@@ -57,9 +62,13 @@
       const FALLBACK_MS  = 4000;
 
       let finished = false;
+      const handlers = {};   // populated below; finish() detaches them
       function finish() {
         if (finished) return;
         finished = true;
+        // detach interactive listeners
+        if (handlers.click) overlay.removeEventListener('click', handlers.click);
+        if (handlers.key)   window.removeEventListener('keydown', handlers.key);
         overlay.classList.add('hide');
         root.classList.add('intro-done');
         setTimeout(() => { overlay.remove(); }, 600);
@@ -68,6 +77,7 @@
         try {
           bg.src = './videos/intro.mp4';
           bg.currentTime = BG_START_AT;
+          bg.muted = true;
           bg.play().catch(() => {});
         } catch {}
         sessionStorage.setItem(SHOWN_KEY, '1');
@@ -103,6 +113,29 @@
       intro.addEventListener('ended', finish);
       intro.addEventListener('error', finish);
       intro.play().catch(finish);
+
+      // Click → unmute (only the first click; further clicks do nothing).
+      handlers.click = function () {
+        if (finished) return;
+        if (intro.muted) {
+          intro.muted = false;
+          intro.volume = 1.0;
+          overlay.classList.add('unmuted');
+          // Re-issue play(); some browsers re-mute or hiccup on the toggle.
+          intro.play().catch(() => {});
+        }
+      };
+      overlay.addEventListener('click', handlers.click);
+
+      // Spacebar → skip.
+      handlers.key = function (e) {
+        if (finished) return;
+        if (e.code === 'Space' || e.key === ' ') {
+          e.preventDefault();
+          finish();
+        }
+      };
+      window.addEventListener('keydown', handlers.key);
 
       // Bail out if something hangs
       setTimeout(() => { if (!finished) finish(); }, FALLBACK_MS + 4000);
