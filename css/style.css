@@ -99,36 +99,28 @@ html { background: var(--bg-0); }   /* solid base so nothing shows through the p
 
 /* ─── background video (the explosion clip looping at low opacity) ─── */
 
+/* Static buildup-frame from intro.mp4 @ 6.44s. CSS pulses opacity + scale
+   so it visually "breathes" — no video element, no playback drift. */
 #bg-video-wrap {
   position: fixed;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  display: none;                 /* shown only after the intro finishes */
-  overflow: hidden;
+  background: url('../videos/bg-frame.jpg') center / cover no-repeat;
+  filter: saturate(1.4) brightness(0.7);
+  opacity: 0;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: opacity 0.6s ease-out;
 }
 #bg-video-wrap.show {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#bg-video {
-  width: 100vw;
-  height: 100vh;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-  filter: saturate(1.4) brightness(0.7);
-  /* Sereniel's bgBreathe: 5s pulse on opacity + scale; the bg video is paused
-     on its last frame, so this is what the viewer perceives as a looping
-     post-explosion glow breathing in and out. */
   animation: bg-breathe 5s ease-in-out infinite;
 }
 @keyframes bg-breathe {
   0%, 100% { opacity: 0.10; transform: scale(1); }
   50%      { opacity: 0.38; transform: scale(1.025); }
 }
-/* Soft vignette on top of the bg video so it fades into the page edges. */
+/* Soft vignette on top so the bg fades into the page edges. */
 #bg-video-wrap::after {
   content: '';
   position: absolute;
