@@ -7,6 +7,22 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <!-- Cosmic background layers (always present, behind content) -->
+  <div class="cosmos" aria-hidden="true"></div>
+  <div class="stars"  aria-hidden="true"></div>
+
+  <!-- Background video — same file as the intro, low opacity, looping -->
+  <div id="bg-video-wrap" aria-hidden="true">
+    <video id="bg-video" muted loop playsinline preload="none"></video>
+  </div>
+
+  <!-- Intro overlay — autoplay muted, fades out after the explosion. Hidden
+       on subsequent navigations within the same browser session. -->
+  <div id="intro-overlay" aria-hidden="true">
+    <video id="intro-video" muted playsinline preload="auto" src="./videos/intro.mp4"></video>
+    <div id="explosion-flash"></div>
+  </div>
+
   <div class="app">
     <aside class="sidebar">
       <a href="#/cards" class="sidebar-brand">
@@ -22,6 +38,76 @@
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // Intro IIFE — plays once per browser session. Watches the video clock
+    // (rAF, not timeupdate which is throttled) and triggers an explosion flash
+    // at 7.13s, then fades out and starts the looping background video at 6.44s.
+    (function () {
+      const overlay = document.getElementById('intro-overlay');
+      const intro   = document.getElementById('intro-video');
+      const flash   = document.getElementById('explosion-flash');
+      const bgWrap  = document.getElementById('bg-video-wrap');
+      const bg      = document.getElementById('bg-video');
+      const root    = document.documentElement;
+
+      const SHOWN_KEY = 'czn_intro_shown_v1';
+      const EXPLOSION_AT = 7.13;
+      const BG_START_AT  = 6.44;
+      const FALLBACK_MS  = 4000;
+
+      let finished = false;
+      function finish() {
+        if (finished) return;
+        finished = true;
+        overlay.classList.add('hide');
+        root.classList.add('intro-done');
+        setTimeout(() => { overlay.remove(); }, 600);
+        // Activate looping background video
+        bgWrap.classList.add('show');
+        try {
+          bg.src = './videos/intro.mp4';
+          bg.currentTime = BG_START_AT;
+          bg.play().catch(() => {});
+        } catch {}
+        sessionStorage.setItem(SHOWN_KEY, '1');
+      }
+
+      // Skip the intro overlay for repeat visits in the same session, but
+      // still load the background video.
+      if (sessionStorage.getItem(SHOWN_KEY) === '1') {
+        overlay.remove();
+        root.classList.add('intro-done');
+        bgWrap.classList.add('show');
+        bg.src = './videos/intro.mp4';
+        bg.addEventListener('loadedmetadata', () => {
+          try { bg.currentTime = BG_START_AT; } catch {}
+          bg.play().catch(() => {});
+        });
+        return;
+      }
+
+      let exploded = false;
+      function tick() {
+        if (finished) return;
+        if (!exploded && intro.currentTime >= EXPLOSION_AT) {
+          exploded = true;
+          flash.classList.add('flash');
+          setTimeout(finish, 380);
+        } else {
+          requestAnimationFrame(tick);
+        }
+      }
+
+      intro.addEventListener('play', () => requestAnimationFrame(tick));
+      intro.addEventListener('ended', finish);
+      intro.addEventListener('error', finish);
+      intro.play().catch(finish);
+
+      // Bail out if something hangs
+      setTimeout(() => { if (!finished) finish(); }, FALLBACK_MS + 4000);
+    })();
+  </script>
 
   <script type="module" src="./js/app.js"></script>
 </body>
