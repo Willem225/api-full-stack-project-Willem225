@@ -116,6 +116,32 @@ export function cardTile(card, { onSelect } = {}) {
     tile.querySelector('.card-art').appendChild(img);
   }
 
+  if (card.video_url) {
+    tile.classList.add('has-video');
+    // src is set on first hover so we don't kick off 100+ video downloads on page load
+    const video = el('video', {
+      class: 'card-art-video',
+      muted: true,
+      loop: true,
+      playsinline: true,
+      preload: 'none',
+    });
+    let loaded = false;
+    tile.addEventListener('mouseenter', () => {
+      if (!loaded) {
+        video.src = card.video_url;
+        loaded = true;
+      }
+      video.play().catch(() => {});
+    });
+    tile.addEventListener('mouseleave', () => {
+      video.pause();
+    });
+    const art = tile.querySelector('.card-art');
+    art.appendChild(video);
+    art.appendChild(el('div', { class: 'card-art-play' }, '▶'));
+  }
+
   return tile;
 }
 

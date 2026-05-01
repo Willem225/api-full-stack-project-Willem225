@@ -1236,7 +1236,8 @@
     "combatant": "Narja",
     "combatant_slug": "narja",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2026/0/15/88919.mp4"
   },
   {
     "id": 70,
@@ -1255,7 +1256,8 @@
     "combatant": "Narja",
     "combatant_slug": "narja",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2026/0/15/227426.mp4"
   },
   {
     "id": 71,
@@ -1274,7 +1276,8 @@
     "combatant": "Narja",
     "combatant_slug": "narja",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2026/0/15/584557.mp4"
   },
   {
     "id": 72,
@@ -1293,7 +1296,8 @@
     "combatant": "Narja",
     "combatant_slug": "narja",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2026/0/15/510131.mp4"
   },
   {
     "id": 73,
@@ -1312,7 +1316,8 @@
     "combatant": "Narja",
     "combatant_slug": "narja",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2026/0/15/585283.mp4"
   },
   {
     "id": 74,
@@ -3275,7 +3280,8 @@
     "combatant": "Leona",
     "combatant_slug": "leona",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/622578.mp4"
   },
   {
     "id": 189,
@@ -3294,7 +3300,8 @@
     "combatant": "Leona",
     "combatant_slug": "leona",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/995727.mp4"
   },
   {
     "id": 190,
@@ -3313,7 +3320,8 @@
     "combatant": "Leona",
     "combatant_slug": "leona",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/146818.mp4"
   },
   {
     "id": 191,
@@ -3332,7 +3340,8 @@
     "combatant": "Leona",
     "combatant_slug": "leona",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/324173.mp4"
   },
   {
     "id": 192,
@@ -3351,7 +3360,8 @@
     "combatant": "Leona",
     "combatant_slug": "leona",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/993718.mp4"
   },
   {
     "id": 193,
@@ -3427,7 +3437,8 @@
     "combatant": "Nia",
     "combatant_slug": "nia",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/746249.mp4"
   },
   {
     "id": 197,
@@ -3446,7 +3457,8 @@
     "combatant": "Nia",
     "combatant_slug": "nia",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/41401.mp4"
   },
   {
     "id": 198,
@@ -3484,7 +3496,8 @@
     "combatant": "Nia",
     "combatant_slug": "nia",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/21/951842.mp4"
   },
   {
     "id": 200,
@@ -3579,7 +3592,8 @@
     "combatant": "Beryl",
     "combatant_slug": "beryl",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/350549.mp4"
   },
   {
     "id": 205,
@@ -3598,7 +3612,8 @@
     "combatant": "Beryl",
     "combatant_slug": "beryl",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/178848.mp4"
   },
   {
     "id": 206,
@@ -3617,7 +3632,8 @@
     "combatant": "Beryl",
     "combatant_slug": "beryl",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/330611.mp4"
   },
   {
     "id": 207,
@@ -3636,7 +3652,8 @@
     "combatant": "Beryl",
     "combatant_slug": "beryl",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/334110.mp4"
   },
   {
     "id": 208,
@@ -3655,7 +3672,8 @@
     "combatant": "Beryl",
     "combatant_slug": "beryl",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/741008.mp4"
   },
   {
     "id": 209,
@@ -3731,7 +3749,8 @@
     "combatant": "Chizuru",
     "combatant_slug": "chizuru",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/4408/2025/11/3/114900.mp4"
   },
   {
     "id": 213,
@@ -3750,7 +3769,8 @@
     "combatant": "Chizuru",
     "combatant_slug": "chizuru",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/4408/2025/11/3/590674.mp4"
   },
   {
     "id": 214,
@@ -3769,7 +3789,8 @@
     "combatant": "Chizuru",
     "combatant_slug": "chizuru",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/4408/2025/11/3/941254.mp4"
   },
   {
     "id": 215,
@@ -3788,7 +3809,8 @@
     "combatant": "Chizuru",
     "combatant_slug": "chizuru",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/4408/2025/11/3/443962.mp4"
   },
   {
     "id": 216,
@@ -3807,7 +3829,8 @@
     "combatant": "Chizuru",
     "combatant_slug": "chizuru",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/4408/2025/11/3/352755.mp4"
   },
   {
     "id": 217,
@@ -3883,7 +3906,8 @@
     "combatant": "Sereniel",
     "combatant_slug": "sereniel",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2025/11/24/327420.mp4"
   },
   {
     "id": 221,
@@ -3902,7 +3926,8 @@
     "combatant": "Sereniel",
     "combatant_slug": "sereniel",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2025/11/24/89971.mp4"
   },
   {
     "id": 222,
@@ -3921,7 +3946,8 @@
     "combatant": "Sereniel",
     "combatant_slug": "sereniel",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2025/11/24/377739.mp4"
   },
   {
     "id": 223,
@@ -3940,7 +3966,8 @@
     "combatant": "Sereniel",
     "combatant_slug": "sereniel",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2025/11/24/567731.mp4"
   },
   {
     "id": 224,
@@ -3959,7 +3986,8 @@
     "combatant": "Sereniel",
     "combatant_slug": "sereniel",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/157597/2025/11/24/684970.mp4"
   },
   {
     "id": 225,
@@ -4035,7 +4063,8 @@
     "combatant": "Selena",
     "combatant_slug": "selena",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/2/63184.mp4"
   },
   {
     "id": 229,
@@ -4054,7 +4083,8 @@
     "combatant": "Selena",
     "combatant_slug": "selena",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/917905.mp4"
   },
   {
     "id": 230,
@@ -4073,7 +4103,8 @@
     "combatant": "Selena",
     "combatant_slug": "selena",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/311891.mp4"
   },
   {
     "id": 231,
@@ -4092,7 +4123,8 @@
     "combatant": "Selena",
     "combatant_slug": "selena",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/955477.mp4"
   },
   {
     "id": 232,
@@ -4111,7 +4143,8 @@
     "combatant": "Selena",
     "combatant_slug": "selena",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/2/166676.mp4"
   },
   {
     "id": 233,
@@ -4187,7 +4220,8 @@
     "combatant": "Mika",
     "combatant_slug": "mika",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/634703.mp4"
   },
   {
     "id": 237,
@@ -4206,7 +4240,8 @@
     "combatant": "Mika",
     "combatant_slug": "mika",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/330977.mp4"
   },
   {
     "id": 238,
@@ -4225,7 +4260,8 @@
     "combatant": "Mika",
     "combatant_slug": "mika",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/222124.mp4"
   },
   {
     "id": 239,
@@ -4244,7 +4280,8 @@
     "combatant": "Mika",
     "combatant_slug": "mika",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/373386.mp4"
   },
   {
     "id": 240,
@@ -4263,7 +4300,8 @@
     "combatant": "Mika",
     "combatant_slug": "mika",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/373172.mp4"
   },
   {
     "id": 241,
@@ -4339,7 +4377,8 @@
     "combatant": "Magna",
     "combatant_slug": "magna",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/284184.mp4"
   },
   {
     "id": 245,
@@ -4358,7 +4397,8 @@
     "combatant": "Magna",
     "combatant_slug": "magna",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/523144.mp4"
   },
   {
     "id": 246,
@@ -4377,7 +4417,8 @@
     "combatant": "Magna",
     "combatant_slug": "magna",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/684032.mp4"
   },
   {
     "id": 247,
@@ -4396,7 +4437,8 @@
     "combatant": "Magna",
     "combatant_slug": "magna",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/70451.mp4"
   },
   {
     "id": 248,
@@ -4415,7 +4457,8 @@
     "combatant": "Magna",
     "combatant_slug": "magna",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/43590.mp4"
   },
   {
     "id": 249,
@@ -4491,7 +4534,8 @@
     "combatant": "Yuki",
     "combatant_slug": "yuki",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/10/18/489679.mp4"
   },
   {
     "id": 253,
@@ -4510,7 +4554,8 @@
     "combatant": "Yuki",
     "combatant_slug": "yuki",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/10/18/36334.mp4"
   },
   {
     "id": 254,
@@ -4529,7 +4574,8 @@
     "combatant": "Yuki",
     "combatant_slug": "yuki",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/10/18/956434.mp4"
   },
   {
     "id": 255,
@@ -4548,7 +4594,8 @@
     "combatant": "Yuki",
     "combatant_slug": "yuki",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/10/18/939420.mp4"
   },
   {
     "id": 256,
@@ -4567,7 +4614,8 @@
     "combatant": "Yuki",
     "combatant_slug": "yuki",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/10/18/182583.mp4"
   },
   {
     "id": 257,
@@ -4643,7 +4691,8 @@
     "combatant": "Owen",
     "combatant_slug": "owen",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/86075.mp4"
   },
   {
     "id": 261,
@@ -4662,7 +4711,8 @@
     "combatant": "Owen",
     "combatant_slug": "owen",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/636625.mp4"
   },
   {
     "id": 262,
@@ -4681,7 +4731,8 @@
     "combatant": "Owen",
     "combatant_slug": "owen",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/625230.mp4"
   },
   {
     "id": 263,
@@ -4700,7 +4751,8 @@
     "combatant": "Owen",
     "combatant_slug": "owen",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/623926.mp4"
   },
   {
     "id": 264,
@@ -4719,7 +4771,8 @@
     "combatant": "Owen",
     "combatant_slug": "owen",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/743475.mp4"
   },
   {
     "id": 265,
@@ -4795,7 +4848,8 @@
     "combatant": "Maribelle",
     "combatant_slug": "maribelle",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/875378.mp4"
   },
   {
     "id": 269,
@@ -4814,7 +4868,8 @@
     "combatant": "Maribelle",
     "combatant_slug": "maribelle",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/58575.mp4"
   },
   {
     "id": 270,
@@ -4833,7 +4888,8 @@
     "combatant": "Maribelle",
     "combatant_slug": "maribelle",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/487284.mp4"
   },
   {
     "id": 271,
@@ -4852,7 +4908,8 @@
     "combatant": "Maribelle",
     "combatant_slug": "maribelle",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/864552.mp4"
   },
   {
     "id": 272,
@@ -4871,7 +4928,8 @@
     "combatant": "Maribelle",
     "combatant_slug": "maribelle",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/778304.mp4"
   },
   {
     "id": 273,
@@ -4947,7 +5005,8 @@
     "combatant": "Koharu",
     "combatant_slug": "koharu",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/236746/2025/10/10/38771.mp4"
   },
   {
     "id": 277,
@@ -4966,7 +5025,8 @@
     "combatant": "Koharu",
     "combatant_slug": "koharu",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/236746/2025/10/10/391579.mp4"
   },
   {
     "id": 278,
@@ -4985,7 +5045,8 @@
     "combatant": "Koharu",
     "combatant_slug": "koharu",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/236746/2025/10/10/391528.mp4"
   },
   {
     "id": 279,
@@ -5004,7 +5065,8 @@
     "combatant": "Koharu",
     "combatant_slug": "koharu",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/236746/2025/10/10/573415.mp4"
   },
   {
     "id": 280,
@@ -5023,7 +5085,8 @@
     "combatant": "Koharu",
     "combatant_slug": "koharu",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/236746/2025/10/10/984640.mp4"
   },
   {
     "id": 281,
@@ -5099,7 +5162,8 @@
     "combatant": "Mei Lin",
     "combatant_slug": "mei-lin",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/23/384172.mp4"
   },
   {
     "id": 285,
@@ -5118,7 +5182,8 @@
     "combatant": "Mei Lin",
     "combatant_slug": "mei-lin",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/23/822257.mp4"
   },
   {
     "id": 286,
@@ -5137,7 +5202,8 @@
     "combatant": "Mei Lin",
     "combatant_slug": "mei-lin",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/95023.mp4"
   },
   {
     "id": 287,
@@ -5156,7 +5222,8 @@
     "combatant": "Mei Lin",
     "combatant_slug": "mei-lin",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/23/612567.mp4"
   },
   {
     "id": 288,
@@ -5251,7 +5318,8 @@
     "combatant": "Cassius",
     "combatant_slug": "cassius",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/527080.mp4"
   },
   {
     "id": 293,
@@ -5270,7 +5338,8 @@
     "combatant": "Cassius",
     "combatant_slug": "cassius",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/580547.mp4"
   },
   {
     "id": 294,
@@ -5289,7 +5358,8 @@
     "combatant": "Cassius",
     "combatant_slug": "cassius",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/932088.mp4"
   },
   {
     "id": 295,
@@ -5308,7 +5378,8 @@
     "combatant": "Cassius",
     "combatant_slug": "cassius",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/399517.mp4"
   },
   {
     "id": 296,
@@ -5327,7 +5398,8 @@
     "combatant": "Cassius",
     "combatant_slug": "cassius",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/67815.mp4"
   },
   {
     "id": 297,
@@ -5403,7 +5475,8 @@
     "combatant": "Luke",
     "combatant_slug": "luke",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/927991.mp4"
   },
   {
     "id": 301,
@@ -5422,7 +5495,8 @@
     "combatant": "Luke",
     "combatant_slug": "luke",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/514848.mp4"
   },
   {
     "id": 302,
@@ -5441,7 +5515,8 @@
     "combatant": "Luke",
     "combatant_slug": "luke",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/874722.mp4"
   },
   {
     "id": 303,
@@ -5460,7 +5535,8 @@
     "combatant": "Luke",
     "combatant_slug": "luke",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/96136.mp4"
   },
   {
     "id": 304,
@@ -5479,7 +5555,8 @@
     "combatant": "Luke",
     "combatant_slug": "luke",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/553429.mp4"
   },
   {
     "id": 305,
@@ -5555,7 +5632,8 @@
     "combatant": "Amy",
     "combatant_slug": "amy",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/931173.mp4"
   },
   {
     "id": 309,
@@ -5574,7 +5652,8 @@
     "combatant": "Amy",
     "combatant_slug": "amy",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/449509.mp4"
   },
   {
     "id": 310,
@@ -5593,7 +5672,8 @@
     "combatant": "Amy",
     "combatant_slug": "amy",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/665812.mp4"
   },
   {
     "id": 311,
@@ -5612,7 +5692,8 @@
     "combatant": "Amy",
     "combatant_slug": "amy",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/21/865854.mp4"
   },
   {
     "id": 312,
@@ -5707,7 +5788,8 @@
     "combatant": "Veronica",
     "combatant_slug": "veronica",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/189806.mp4"
   },
   {
     "id": 317,
@@ -5726,7 +5808,8 @@
     "combatant": "Veronica",
     "combatant_slug": "veronica",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/307930.mp4"
   },
   {
     "id": 318,
@@ -5745,7 +5828,8 @@
     "combatant": "Veronica",
     "combatant_slug": "veronica",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/986024.mp4"
   },
   {
     "id": 319,
@@ -5764,7 +5848,8 @@
     "combatant": "Veronica",
     "combatant_slug": "veronica",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/649394.mp4"
   },
   {
     "id": 320,
@@ -5783,7 +5868,8 @@
     "combatant": "Veronica",
     "combatant_slug": "veronica",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/220288.mp4"
   },
   {
     "id": 321,
@@ -6011,7 +6097,8 @@
     "combatant": "Rey",
     "combatant_slug": "rey",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/885640.mp4"
   },
   {
     "id": 333,
@@ -6030,7 +6117,8 @@
     "combatant": "Rey",
     "combatant_slug": "rey",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/21/854064.mp4"
   },
   {
     "id": 334,
@@ -6049,7 +6137,8 @@
     "combatant": "Rey",
     "combatant_slug": "rey",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/563091.mp4"
   },
   {
     "id": 335,
@@ -6068,7 +6157,8 @@
     "combatant": "Rey",
     "combatant_slug": "rey",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/410654.mp4"
   },
   {
     "id": 336,
@@ -6087,7 +6177,8 @@
     "combatant": "Rey",
     "combatant_slug": "rey",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/2/461003.mp4"
   },
   {
     "id": 337,
@@ -6163,7 +6254,8 @@
     "combatant": "Khalipe",
     "combatant_slug": "khalipe",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/996628.mp4"
   },
   {
     "id": 341,
@@ -6182,7 +6274,8 @@
     "combatant": "Khalipe",
     "combatant_slug": "khalipe",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/496460.mp4"
   },
   {
     "id": 342,
@@ -6201,7 +6294,8 @@
     "combatant": "Khalipe",
     "combatant_slug": "khalipe",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/931410.mp4"
   },
   {
     "id": 343,
@@ -6220,7 +6314,8 @@
     "combatant": "Khalipe",
     "combatant_slug": "khalipe",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/407799.mp4"
   },
   {
     "id": 344,
@@ -6239,7 +6334,8 @@
     "combatant": "Khalipe",
     "combatant_slug": "khalipe",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/934804.mp4"
   },
   {
     "id": 345,
@@ -6315,7 +6411,8 @@
     "combatant": "Lucas",
     "combatant_slug": "lucas",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/703248.mp4"
   },
   {
     "id": 349,
@@ -6334,7 +6431,8 @@
     "combatant": "Lucas",
     "combatant_slug": "lucas",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/222207.mp4"
   },
   {
     "id": 350,
@@ -6353,7 +6451,8 @@
     "combatant": "Lucas",
     "combatant_slug": "lucas",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/61193.mp4"
   },
   {
     "id": 351,
@@ -6372,7 +6471,8 @@
     "combatant": "Lucas",
     "combatant_slug": "lucas",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/831385.mp4"
   },
   {
     "id": 352,
@@ -6391,7 +6491,8 @@
     "combatant": "Lucas",
     "combatant_slug": "lucas",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/52274.mp4"
   },
   {
     "id": 353,
@@ -6467,7 +6568,8 @@
     "combatant": "Tressa",
     "combatant_slug": "tressa",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/764715.mp4"
   },
   {
     "id": 357,
@@ -6486,7 +6588,8 @@
     "combatant": "Tressa",
     "combatant_slug": "tressa",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/766565.mp4"
   },
   {
     "id": 358,
@@ -6505,7 +6608,8 @@
     "combatant": "Tressa",
     "combatant_slug": "tressa",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/241091.mp4"
   },
   {
     "id": 359,
@@ -6524,7 +6628,8 @@
     "combatant": "Tressa",
     "combatant_slug": "tressa",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/941311.mp4"
   },
   {
     "id": 360,
@@ -6543,7 +6648,8 @@
     "combatant": "Tressa",
     "combatant_slug": "tressa",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/949803.mp4"
   },
   {
     "id": 361,
@@ -6619,7 +6725,8 @@
     "combatant": "Rin",
     "combatant_slug": "rin",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/203750.mp4"
   },
   {
     "id": 365,
@@ -6638,7 +6745,8 @@
     "combatant": "Rin",
     "combatant_slug": "rin",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/11/2/977986.mp4"
   },
   {
     "id": 366,
@@ -6657,7 +6765,8 @@
     "combatant": "Rin",
     "combatant_slug": "rin",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/679778.mp4"
   },
   {
     "id": 367,
@@ -6676,7 +6785,8 @@
     "combatant": "Rin",
     "combatant_slug": "rin",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/103682/2025/10/25/517616.mp4"
   },
   {
     "id": 368,
@@ -6695,7 +6805,8 @@
     "combatant": "Rin",
     "combatant_slug": "rin",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/670063.mp4"
   },
   {
     "id": 369,
@@ -6923,7 +7034,8 @@
     "combatant": "Hugo",
     "combatant_slug": "hugo",
     "kind": "unique",
-    "gk_sort": 8
+    "gk_sort": 8,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/326319.mp4"
   },
   {
     "id": 381,
@@ -6942,7 +7054,8 @@
     "combatant": "Hugo",
     "combatant_slug": "hugo",
     "kind": "unique",
-    "gk_sort": 7
+    "gk_sort": 7,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/168259.mp4"
   },
   {
     "id": 382,
@@ -6961,7 +7074,8 @@
     "combatant": "Hugo",
     "combatant_slug": "hugo",
     "kind": "unique",
-    "gk_sort": 6
+    "gk_sort": 6,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/295908.mp4"
   },
   {
     "id": 383,
@@ -6980,7 +7094,8 @@
     "combatant": "Hugo",
     "combatant_slug": "hugo",
     "kind": "unique",
-    "gk_sort": 5
+    "gk_sort": 5,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/449813.mp4"
   },
   {
     "id": 384,
@@ -6999,7 +7114,8 @@
     "combatant": "Hugo",
     "combatant_slug": "hugo",
     "kind": "basic",
-    "gk_sort": 4
+    "gk_sort": 4,
+    "video_url": "https://cdnimg-v2.gamekee.com/wiki2.0/video/50388/72324/2025/10/11/945788.mp4"
   },
   {
     "id": 385,
