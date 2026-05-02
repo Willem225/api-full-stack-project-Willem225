@@ -145,12 +145,19 @@ export function cardTile(card, { onSelect } = {}) {
     } else {
       load();
     }
-    tile.addEventListener('mouseenter', () => {
-      load();
-      video.play().catch(() => {});
-    });
-    tile.addEventListener('mouseleave', () => {
-      video.pause();
+    // Attach hover handlers to the .tile-slot wrapper if one exists (builder
+    // views), otherwise to the card-tile itself. The wrapper matters because
+    // .tile-actions overlay covers the card-art on hover and would otherwise
+    // trigger mouseleave on the card-tile, pausing the video instantly.
+    queueMicrotask(() => {
+      const target = tile.closest('.tile-slot') || tile;
+      target.addEventListener('mouseenter', () => {
+        load();
+        video.play().catch(() => {});
+      });
+      target.addEventListener('mouseleave', () => {
+        video.pause();
+      });
     });
     const art = tile.querySelector('.card-art');
     art.appendChild(video);

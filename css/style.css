@@ -507,7 +507,8 @@ p { color: var(--text-dim); margin: 0 0 12px; }
   transition: opacity .25s ease-out;
   pointer-events: none;
 }
-.card-tile.has-video:hover .card-art-video { opacity: 1; }
+.card-tile.has-video:hover .card-art-video,
+.tile-slot:hover .card-tile.has-video .card-art-video { opacity: 1; }
 
 .card-art-play {
   position: absolute;
@@ -526,7 +527,8 @@ p { color: var(--text-dim); margin: 0 0 12px; }
   pointer-events: none;
   transition: opacity .2s;
 }
-.card-tile.has-video:hover .card-art-play { opacity: 0; }
+.card-tile.has-video:hover .card-art-play,
+.tile-slot:hover .card-tile.has-video .card-art-play { opacity: 0; }
 
 .card-art::before {
   content: '';
