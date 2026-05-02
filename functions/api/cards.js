@@ -1,7 +1,7 @@
 // GET /api/cards
 // Query: ?q=<text>&card_type=<t>&category=<c>&rarity=<r>&combatant=<name>&limit=<n>
 
-import { json, jsonError, onRequestOptions } from './_helpers.js';
+import { json, jsonError, onRequestOptions, rewriteCardVideo } from './_helpers.js';
 import cards from '../../cards.json';
 
 export { onRequestOptions };
@@ -25,7 +25,7 @@ export function onRequestGet({ request }) {
     if (rarity && c.rarity    !== rarity) return false;
     if (comb   && c.combatant !== comb)   return false;
     return true;
-  }).slice(0, limit);
+  }).slice(0, limit).map(c => rewriteCardVideo(c, request.url));
 
   return json({ cards: filtered, total: filtered.length });
 }

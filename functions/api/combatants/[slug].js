@@ -1,12 +1,12 @@
 // GET /api/combatants/:slug — combatant + their starters/unique cards
 
-import { json, jsonError, onRequestOptions } from '../_helpers.js';
+import { json, jsonError, onRequestOptions, rewriteCardVideo } from '../_helpers.js';
 import cards      from '../../../cards.json';
 import combatants from '../../../combatants.json';
 
 export { onRequestOptions };
 
-export function onRequestGet({ params }) {
+export function onRequestGet({ params, request }) {
   const slug = String(params.slug || '').toLowerCase();
   const combatant = combatants.find(c =>
     c.slug === slug || c.name.toLowerCase() === slug);
@@ -14,7 +14,11 @@ export function onRequestGet({ params }) {
 
   const RARITY_ORDER = { common: 0, rare: 1, legendary: 2, mythic: 3 };
 
-  const theirs = cards.filter(c => c.combatant === combatant.name);
+  const rewrite = c => rewriteCardVideo(c, request.url);
+
+  const theirs = cards
+    .filter(c => c.combatant === combatant.name)
+    .map(rewrite);
   const starters = theirs
     .filter(c => c.kind === 'basic')
     .sort((a, b) => (a.gk_sort ?? 0) - (b.gk_sort ?? 0));
