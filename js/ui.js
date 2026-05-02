@@ -118,20 +118,35 @@ export function cardTile(card, { onSelect } = {}) {
 
   if (card.video_url) {
     tile.classList.add('has-video');
-    // src is set on first hover so we don't kick off 100+ video downloads on page load
     const video = el('video', {
       class: 'card-art-video',
       muted: true,
       loop: true,
       playsinline: true,
-      preload: 'none',
+      preload: 'auto',
     });
+    // Don't set src until the tile is in (or near) the viewport. This avoids
+    // kicking off 100+ video downloads when a big grid first paints, but
+    // means hover→play is instant for any card the user can actually see.
     let loaded = false;
+    const load = () => {
+      if (loaded) return;
+      loaded = true;
+      video.src = card.video_url;
+    };
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        if (entries.some(e => e.isIntersecting)) {
+          load();
+          io.disconnect();
+        }
+      }, { rootMargin: '300px' });
+      io.observe(tile);
+    } else {
+      load();
+    }
     tile.addEventListener('mouseenter', () => {
-      if (!loaded) {
-        video.src = card.video_url;
-        loaded = true;
-      }
+      load();
       video.play().catch(() => {});
     });
     tile.addEventListener('mouseleave', () => {
